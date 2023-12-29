@@ -36,11 +36,11 @@ header{
 }
 
 .search-input-box {
-	width: 100%;
-	background-color: #2f3640;
+	width: 290px;
+	background-color: #1b1c1c;
 	border-radius: 5px;
 	position: relative;
-	color: #f5f6f4;
+	color: #d22a2a;
 	box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.12);
 }
 

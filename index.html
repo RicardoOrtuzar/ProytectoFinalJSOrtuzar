@@ -14,18 +14,10 @@
         <header>
             <h1>Guitar Shop</h1>
 
-
+            <!--Busqueda-->
             <div class="search-container">
                 <div class="search-input-box">
-                    <input type="text" id="search" oninput="filterProducts()" placeholder="Buscar Guitarra">
-                    <a href="#" target="_blank">
-                    </a>
-                </div>
-            </div>
-            <!--busqueda nueva-->
-            <div class="search-container">
-                <div class="search-input-box">
-                    <input type="text" id="searchInput" oninput="filterProducts()" placeholder="Buscar Guitarra por Modelo">
+                    <input type="text" id="searchInput" oninput="filterProducts()" placeholder="Buscar Guitarra x Modelo">
                     <a href="#" target="_blank">
                     </a>
                 </div>
@@ -75,7 +67,7 @@
                     </div>
 
 
-                    <div class="cart-total hidden">
+                    <div class="cart-total">
                         <h3>Total:</h3>
                         <span class="total-pagar"></span>
                     </div>
@@ -85,10 +77,11 @@
         </header>
        
         <div class="container-items">
-            <div class="container-items2" id="prueba"></div>
+            <div class="container-items2" id="containerProducts"></div>
             <div id="cart-product"></div>
+            <!--Productos JSON-->
         </div>
-        
+        <!--Muestra automáticamente los productos-->
         <script>
              document.addEventListener('DOMContentLoaded', function() {
                 ejecutarPrueba2();

@@ -5,7 +5,7 @@ productos = [
 		modelo:"RG2228",
 		color:"Space Black",
 		imagen:"img/01.jpg",
-		alt:"Polera diseño Corona Bicicleta",
+		alt:"RG2228",
 		precio:1500,
 		cantidad:1
 	},
@@ -15,7 +15,7 @@ productos = [
 		modelo:"XPTB720",
 		color:"Black",
 		imagen:"img/02.jpg",
-		alt:"Polera diseño E.T. San Cristóbal",
+		alt:"XPTB720",
 		precio:1100,
 		cantidad:1
 	},
