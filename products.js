@@ -1,0 +1,63 @@
+productos = [
+	{ 
+		id:1,
+		producto:"Guitarra Ibanez",
+		modelo:"RG2228",
+		color:"Space Black",
+		imagen:"img/01.jpg",
+		alt:"Polera diseño Corona Bicicleta",
+		precio:1500,
+		cantidad:1
+	},
+	{
+		id:2,
+		producto:"Guitarra Ibanez",
+		modelo:"XPTB720",
+		color:"Black",
+		imagen:"img/02.jpg",
+		alt:"Polera diseño E.T. San Cristóbal",
+		precio:1100,
+		cantidad:1
+	},
+	{
+		id:3,
+		producto:"Guitarra Ibanez",
+		modelo:"RG550",
+		color:"Red",
+		imagen:"img/04.jpg",
+		alt:"RG550",
+		precio:1090,
+		cantidad:1
+	},
+	{ 
+		id:4,
+		producto:"Guitarra Ibanez",
+		modelo:"JEM7VP",
+		color:"White",
+		imagen:"img/05.jpg",
+		alt:"JEM7VP",
+		precio:1900,
+		cantidad:1
+	},
+	{ 
+		id:5,
+		producto:"Guitarra Ibanez",
+		modelo:"JEM77P",
+		color:"Black",
+		imagen:"img/06.jpg",
+		alt:"JEM77P",
+		precio:1600,
+		cantidad:1
+	},
+	{ 
+		id:6,
+		producto:"Guitarra Ibanez",
+		modelo:"JS140M",
+		color:"Sky Blue",
+		imagen:"img/03.jpg",
+		alt:"JS140M",
+		precio:990,
+		cantidad:1
+	}
+	];
+export default productos;
